@@ -30,6 +30,7 @@ export interface PhoneInputProps {
   layout?: "first" | "second";
   filterProps?: CountryFilterProps;
   countryPickerProps?: any;
+  disableCountry?: boolean;
 }
 export interface PhoneInputState {
   code: CallingCode | undefined;
